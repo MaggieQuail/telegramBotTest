@@ -41,7 +41,7 @@ public class Bot extends TelegramLongPollingBot {
         sendMessage.enableMarkdown(true);
         sendMessage.setChatId(chatId);
        // sendMessage.setText(s);
-        sendMessage.setText("Ты пидр");
+        sendMessage.setText("Ti pidr");
         try {
             System.out.println("MAPE sendMessage chat = " + chatId + "msg = " + s);
             execute(sendMessage);
