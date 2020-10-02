@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS chat;
+
+CREATE TABLE Chat (
+  chat_id INT  PRIMARY KEY,
+  seq INT
+);
